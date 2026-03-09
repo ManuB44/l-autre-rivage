@@ -1,205 +1,280 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>L’Autre Rivage — Franchissez le seuil du monde caché</title>
-  <meta name="description" content="L’Autre Rivage est une porte narrative vers un univers fragmenté, mystérieux et immersif.">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site L’Autre Rivage</title>
+  <meta
+    name="description"
+    content="Bienvenue sur L’Autre Rivage : univers, livres, jeu de rôle, créations et communauté du Nexus des Mondes."
+  />
+  <meta
+    name="keywords"
+    content="L'Autre Rivage, site imaginaire, univers fantasy, science-fiction, livres, jeu de rôle, JDR, Nexus des Mondes"
+  />
+  <meta name="author" content="L’Autre Rivage" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="L’Autre Rivage" />
+  <meta
+    property="og:description"
+    content="Un espace dédié aux mondes imaginaires, aux livres, au jeu de rôle et à la création."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="site-bg"></div>
 
-<header class="site-header">
-  <div class="container navbar">
-    <a href="index.html" class="logo">L’Autre Rivage</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo">L’Autre Rivage</a>
 
-    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-    <nav id="site-nav" class="site-nav">
-      <a href="index.html" aria-current="page">Accueil</a>
-      <a href="fragments.html">Fragments</a>
-      <a href="bestiaire.html">Bestiaire</a>
-      <a href="cartes-du-rivage.html">Cartes</a>
-      <a href="chronologie.html">Chronologie</a>
-      <a href="pages/jdr/jeu-de-role.html">Jeu de rôle</a>
-      <a href="a-propos.html">À propos</a>
-      <a href="newsletter.html">Newsletter</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <section class="hero">
-    <div class="container">
-      <p class="eyebrow">Un monde entre les brumes</p>
-      <h1>Franchissez le seuil.</h1>
-      <p class="lead">
-        L’Autre Rivage n’est pas une vitrine. C’est une entrée. Une faille calme dans la surface du réel.
-        Un lieu de fragments, d’archives, de créatures oubliées et de récits brisés.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="fragments.html">Explorer les fragments</a>
-        <a class="btn btn-secondary" href="pages/jdr/jeu-de-role.html">Découvrir le jeu de rôle</a>
-      </div>
+      <nav class="nav" id="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#univers">Univers</a>
+        <a href="#livres">Livres</a>
+        <a href="#jdr">Jeu de rôle</a>
+        <a href="#nexus">Nexus</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Le monde</p>
-        <h2>Un seuil entre mémoire, ruines et présences</h2>
-      </div>
+  <main>
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Mondes imaginaires • Création • Communauté</p>
+          <h1>Bienvenue sur <span>L’Autre Rivage</span></h1>
+          <p class="hero-description">
+            Un lieu consacré aux univers de fantasy, de science-fiction, aux récits,
+            au jeu de rôle et à toutes les passerelles entre imagination, exploration
+            et création.
+          </p>
 
-      <p class="section-text">
-        Ici, le Rivage n’est ni tout à fait un royaume, ni tout à fait un rêve. C’est une frontière.
-        Des noms s’effacent, des cartes mentent, des voix reviennent par les archives et certaines
-        choses continuent d’exister même quand plus personne ne devrait s’en souvenir.
-      </p>
-    </div>
-  </section>
+          <div class="hero-actions">
+            <a href="#univers" class="btn btn-primary">Découvrir l’univers</a>
+            <a href="#livres" class="btn btn-secondary">Voir les livres</a>
+          </div>
+        </div>
 
-  <section class="section alt">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Portes d’entrée</p>
-        <h2>Choisissez votre passage</h2>
-      </div>
-
-      <div class="cards-grid">
-        <article class="card">
-          <h3>Fragments</h3>
-          <p>Textes, éclats de lore, présences, lois anciennes et morceaux du monde brisé.</p>
-          <a class="card-link" href="fragments.html">Entrer dans les fragments</a>
-        </article>
-
-        <article class="card">
-          <h3>Bestiaire</h3>
-          <p>Créatures, entités, formes oubliées et silhouettes qui rôdent au bord du seuil.</p>
-          <a class="card-link" href="bestiaire.html">Ouvrir le bestiaire</a>
-        </article>
-
-        <article class="card">
-          <h3>Cartes du Rivage</h3>
-          <p>Lieux, territoires, zones perdues, passages et géographies incomplètes.</p>
-          <a class="card-link" href="cartes-du-rivage.html">Voir les cartes</a>
-        </article>
-
-        <article class="card">
-          <h3>Jeu de rôle</h3>
-          <p>Règles, factions, départ de campagne et accès au livret du monde jouable.</p>
-          <a class="card-link" href="pages/jdr/jeu-de-role.html">Jouer dans le Rivage</a>
-        </article>
-
-        <article class="card">
-          <h3>Vestiges</h3>
-          <p>Restes, ruines, objets et traces persistantes de ce qui a traversé le monde avant nous.</p>
-          <a class="card-link" href="vestiges.html">Explorer les vestiges</a>
-        </article>
-
-        <article class="card">
-          <h3>Services</h3>
-          <p>Accès aux contenus éditoriaux, aux formats du projet et aux différentes extensions du site.</p>
-          <a class="card-link" href="services.html">Voir les services</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Continuer</p>
-        <h2>Archives, chronologie et transmissions</h2>
-      </div>
-
-      <div class="mini-grid">
-        <a class="mini-card" href="chronologie.html">
-          <strong>Chronologie</strong>
-          <span>Suivre les ruptures, les effacements et les grands basculements.</span>
-        </a>
-
-        <a class="mini-card" href="newsletter.html">
-          <strong>Newsletter</strong>
-          <span>Recevoir les nouvelles transmissions du Rivage.</span>
-        </a>
-
-        <a class="mini-card" href="a-propos.html">
-          <strong>À propos</strong>
-          <span>Comprendre la vision, le site et l’univers en construction.</span>
-        </a>
-
-        <a class="mini-card" href="contact.html">
-          <strong>Contact</strong>
-          <span>Écrire au sujet du projet, des textes et du jeu de rôle.</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section alt">
-    <div class="container narrow">
-      <div class="panel">
-        <span class="tag">Jeu de rôle</span>
-        <h2>Entrer dans le Rivage jouable</h2>
-        <p>
-          Le site ne sert pas seulement à lire le monde. Il permet aussi de l’incarner.
-          Tu peux accéder au jeu de rôle, aux factions, aux règles et au bestiaire pour
-          transformer le Rivage en terrain d’exploration, de survie et de mystère.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="pages/jdr/jeu-de-role.html">Accéder au JDR</a>
-          <a class="btn btn-secondary" href="assets/pdf/Regles-Jeu-de-Role-L-Autre-Rivage.pdf" target="_blank" rel="noopener">
-            Ouvrir les règles PDF
-          </a>
+        <div class="hero-card reveal">
+          <div class="hero-card-content">
+            <h2>Le Nexus des Mondes</h2>
+            <p>
+              Rejoins un espace vivant autour des histoires, des idées, des projets
+              et du développement du site.
+            </p>
+            <ul>
+              <li>Univers originaux</li>
+              <li>Projets narratifs</li>
+              <li>Développement du JDR</li>
+              <li>Échanges avec la communauté</li>
+            </ul>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section class="section intro">
+      <div class="container narrow reveal">
+        <h2>Un espace pour traverser les mondes</h2>
+        <p>
+          L’Autre Rivage rassemble des créations originales : histoires, concepts,
+          livres, mécaniques de jeu, ambiances, fragments de lore et passerelles
+          entre plusieurs formes de narration.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="univers">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-tag">Univers</p>
+          <h2>Des mondes à explorer</h2>
+          <p>
+            Chaque projet possède sa propre identité, ses règles, ses personnages
+            et son atmosphère.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Fantasy</h3>
+            <p>
+              Royaumes oubliés, magie ancienne, légendes, bibliothèques secrètes
+              et récits initiatiques.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Science-fiction</h3>
+            <p>
+              Civilisations stellaires, intelligences artificielles, vaisseaux,
+              tensions galactiques et mystères du futur.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Entre-deux</h3>
+            <p>
+              Des récits qui mélangent symboles, exploration intérieure, étrangeté
+              et frontières mouvantes entre les mondes.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="livres">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-tag">Livres</p>
+          <h2>Livres à découvrir</h2>
+          <p class="gallery-intro">
+            Une sélection d’ouvrages choisis pour la richesse de leur univers et la
+            qualité de leur lecture.
+          </p>
+        </div>
+
+        <div class="books-grid">
+          <article class="book-card reveal">
+            <div class="book-badge">Sélection</div>
+            <h3>ALETHEIA</h3>
+            <p>
+              Un récit autour d’une intelligence artificielle qui évolue lentement,
+              discrètement, jusqu’à déborder de son cadre initial.
+            </p>
+            <a href="#" class="text-link">Consulter la fiche</a>
+          </article>
+
+          <article class="book-card reveal">
+            <div class="book-badge">À venir</div>
+            <h3>Chroniques du Rivage</h3>
+            <p>
+              Des histoires où les mondes s’effleurent, où les symboles parlent,
+              et où les lieux semblent garder une mémoire propre.
+            </p>
+            <a href="#" class="text-link">Consulter la fiche</a>
+          </article>
+
+          <article class="book-card reveal">
+            <div class="book-badge">Projet</div>
+            <h3>Bibliothèque des mondes</h3>
+            <p>
+              Un espace de découverte consacré aux univers, aux ouvrages et aux
+              passerelles entre lecture, imaginaire et création.
+            </p>
+            <a href="#" class="text-link">Consulter la fiche</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="jdr">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-tag">Jeu de rôle</p>
+          <h2>Le système JDR de L’Autre Rivage</h2>
+          <p>
+            Une approche accessible, narrative et immersive pensée pour soutenir
+            l’exploration, les personnages et les choix.
+          </p>
+        </div>
+
+        <div class="jdr-layout">
+          <div class="jdr-box reveal">
+            <h3>Une base simple</h3>
+            <p>
+              Le système peut s’appuyer sur des dés faciles à lire, une progression
+              claire et un rythme orienté narration plutôt que complexité inutile.
+            </p>
+          </div>
+
+          <div class="jdr-box reveal">
+            <h3>Des classes et rôles uniques</h3>
+            <p>
+              Les personnages sont conçus pour L’Autre Rivage avec leur ton,
+              leur fonction et leur ancrage dans l’univers du site.
+            </p>
+          </div>
+
+          <div class="jdr-box reveal">
+            <h3>Une expérience modulaire</h3>
+            <p>
+              Scénarios, lore, fiches et système peuvent évoluer ensemble sans perdre
+              la cohérence globale.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="nexus">
+      <div class="container nexus-box reveal">
+        <div>
+          <p class="section-tag">Communauté</p>
+          <h2>Le Nexus des Mondes</h2>
+          <p>
+            Le Discord du projet pour suivre l’avancement, partager les idées,
+            discuter des univers, découvrir les nouveautés et participer à
+            l’évolution de L’Autre Rivage.
+          </p>
+        </div>
+
+        <div class="nexus-actions">
+          <a href="#" class="btn btn-primary">Rejoindre le Discord</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container narrow reveal">
+        <div class="section-heading">
+          <p class="section-tag">Contact</p>
+          <h2>Entrer en contact</h2>
+        </div>
+
+        <p class="contact-text">
+          Pour suivre le projet, découvrir les nouveautés ou rejoindre l’univers,
+          tu peux passer par les espaces du site et du Nexus.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:contact@lautrerivage.fr" class="btn btn-secondary">Envoyer un message</a>
+          <a href="#accueil" class="btn btn-ghost">Retour en haut</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 L’Autre Rivage — Tous droits réservés.</p>
+      <div class="footer-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#livres">Livres</a>
+        <a href="#jdr">JDR</a>
+        <a href="#nexus">Nexus</a>
+      </div>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <h3>L’Autre Rivage</h3>
-      <p>
-        Un portail narratif entre fragments, créatures, vestiges, archives et jeu de rôle.
-      </p>
-    </div>
-
-    <div>
-      <h4>Explorer</h4>
-      <ul>
-        <li><a href="fragments.html">Fragments</a></li>
-        <li><a href="bestiaire.html">Bestiaire</a></li>
-        <li><a href="cartes-du-rivage.html">Cartes</a></li>
-        <li><a href="chronologie.html">Chronologie</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h4>Suivre</h4>
-      <ul>
-        <li><a href="newsletter.html">Newsletter</a></li>
-        <li><a href="a-propos.html">À propos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="pages/jdr/jeu-de-role.html">Jeu de rôle</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container">
-    <p>© 2026 L’Autre Rivage — Franchissez le seuil du monde caché.</p>
-  </div>
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
