@@ -55,24 +55,24 @@
           Ce formulaire peut servir de base avant d’être relié à un vrai système d’envoi.
         </p>
 
-        <form id="contact-form" class="newsletter-form">
-          <label for="contact-name">Nom</label>
-          <input id="contact-name" type="text" placeholder="Votre nom">
+        <form class="newsletter-form" action="https://formspree.io/f/TON_ID" method="POST">
 
-          <label for="contact-email">Adresse e-mail</label>
-          <input id="contact-email" type="email" placeholder="nom@exemple.com">
+       <label>Nom</label>
+       <input type="text" name="name" placeholder="Votre nom" required>
 
-          <label for="contact-subject">Sujet</label>
-          <input id="contact-subject" type="text" placeholder="Sujet du message">
+      <label>Email</label>
+     <input type="email" name="email" placeholder="nom@exemple.com" required>
+    
+      <label>Sujet</label>
+      <input type="text" name="subject" placeholder="Sujet du message" required>
 
-          <label for="contact-message">Message</label>
-          <textarea id="contact-message" rows="7" placeholder="Votre message"></textarea>
+      <label>Message</label>
+      <textarea name="message" rows="7" placeholder="Votre message" required></textarea>
 
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
 
-        <p id="contact-message-status" class="form-message"></p>
-      </div>
+  </form>
+    </div>
 
       <aside class="info-card">
         <span class="tag">Rivage</span>
