@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — L’Autre Rivage</title>
+  <meta name="description" content="Contacter L’Autre Rivage.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="logo">L’Autre Rivage</a>
+
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Accueil</a>
+      <a href="fragments.html">Fragments</a>
+      <a href="bestiaire.html">Bestiaire</a>
+      <a href="cartes-du-rivage.html">Cartes</a>
+      <a href="chronologie.html">Chronologie</a>
+      <a href="pages/jdr/jeu-de-role.html">Jeu de rôle</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="newsletter.html">Newsletter</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-content">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Écrire au Rivage</h1>
+      <p class="lead">
+        Une question, une proposition, un retour sur l’univers ou le jeu de rôle ?
+        Utilisez cette page comme point de contact.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div class="form-card">
+        <span class="tag">Message</span>
+        <h2>Formulaire de contact</h2>
+        <p>
+          Ce formulaire peut servir de base avant d’être relié à un vrai système d’envoi.
+        </p>
+
+        <form id="contact-form" class="newsletter-form">
+          <label for="contact-name">Nom</label>
+          <input id="contact-name" type="text" placeholder="Votre nom">
+
+          <label for="contact-email">Adresse e-mail</label>
+          <input id="contact-email" type="email" placeholder="nom@exemple.com">
+
+          <label for="contact-subject">Sujet</label>
+          <input id="contact-subject" type="text" placeholder="Sujet du message">
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" rows="7" placeholder="Votre message"></textarea>
+
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+
+        <p id="contact-message-status" class="form-message"></p>
+      </div>
+
+      <aside class="info-card">
+        <span class="tag">Rivage</span>
+        <h2>Avant d’écrire</h2>
+        <p>
+          Tu peux utiliser cette page pour parler :
+        </p>
+        <ul>
+          <li>du site</li>
+          <li>du lore</li>
+          <li>du bestiaire</li>
+          <li>du jeu de rôle</li>
+          <li>des collaborations ou retours</li>
+        </ul>
+
+        <div class="contact-note">
+          <strong>Note :</strong>
+          <p>
+            Pour un vrai envoi de messages, il faudra plus tard relier ce formulaire
+            à Formspree, Netlify Forms ou un backend perso.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 L’Autre Rivage — Franchissez le seuil du monde caché.</p>
+  </div>
+</footer>
+
+</body>
+</html>

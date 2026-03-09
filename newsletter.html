@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter — L’Autre Rivage</title>
+  <meta name="description" content="Recevoir les transmissions de L’Autre Rivage.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="logo">L’Autre Rivage</a>
+
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Accueil</a>
+      <a href="fragments.html">Fragments</a>
+      <a href="bestiaire.html">Bestiaire</a>
+      <a href="cartes-du-rivage.html">Cartes</a>
+      <a href="chronologie.html">Chronologie</a>
+      <a href="pages/jdr/jeu-de-role.html">Jeu de rôle</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="newsletter.html" aria-current="page">Newsletter</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-content">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Newsletter</p>
+      <h1>Recevoir les transmissions</h1>
+      <p class="lead">
+        Inscrivez-vous pour recevoir les nouvelles du Rivage, les fragments inédits,
+        les mises à jour du site et les avancées du jeu de rôle.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container newsletter-layout">
+      <div class="form-card">
+        <span class="tag">Inscription</span>
+        <h2>Rejoindre les transmissions</h2>
+        <p>
+          Cette inscription peut servir de base avant d’être reliée à un vrai service
+          d’envoi comme MailerLite, Brevo ou un formulaire maison.
+        </p>
+
+        <form id="newsletter-form" class="newsletter-form">
+          <label for="newsletter-email">Adresse e-mail</label>
+          <input id="newsletter-email" type="email" placeholder="nom@exemple.com">
+
+          <button type="submit" class="btn btn-primary">S’inscrire</button>
+        </form>
+
+        <p id="newsletter-message" class="form-message"></p>
+      </div>
+
+      <aside class="info-card">
+        <span class="tag">Contenu</span>
+        <h2>Ce que tu peux recevoir</h2>
+        <ul>
+          <li>nouveaux fragments</li>
+          <li>mises à jour du bestiaire</li>
+          <li>avancées du jeu de rôle</li>
+          <li>nouvelles pages du site</li>
+          <li>transmissions spéciales du Rivage</li>
+        </ul>
+
+        <div class="contact-note">
+          <strong>Important :</strong>
+          <p>
+            Cette page fonctionne déjà visuellement. Pour un vrai envoi,
+            il faudra la relier à un outil d’e-mailing ou à un backend.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 L’Autre Rivage — Franchissez le seuil du monde caché.</p>
+  </div>
+</footer>
+
+</body>
+</html>

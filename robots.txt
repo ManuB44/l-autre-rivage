@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manub44.github.io/L-Autre-Rivage/sitemap.xml
