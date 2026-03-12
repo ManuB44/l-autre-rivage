@@ -1,0 +1,47 @@
+[
+  {
+    "nom": "Guetteur des Brumes",
+    "slug": "guetteur-brumes",
+    "type": "Entité obscure",
+    "region": "Mer des Brumes",
+    "description": "Créature immense que certains marins affirment voir apparaître dans les tempêtes. On dit qu’elle observe les navires perdus sans jamais approcher complètement.",
+    "image": "/L-Autre-Rivage/assets/images/monstres/guetteur-brumes.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/monstre-guetteur-brumes.html"
+  },
+  {
+    "nom": "Bête de Verre",
+    "slug": "bete-verre",
+    "type": "Prédateur ancien",
+    "region": "Marais de Verre",
+    "description": "Créature translucide qui se déplace silencieusement entre les marais cristallisés. Sa silhouette se confond parfois avec les reflets du terrain.",
+    "image": "/L-Autre-Rivage/assets/images/monstres/bete-verre.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/monstre-bete-verre.html"
+  },
+  {
+    "nom": "Hurleur des Falaises",
+    "slug": "hurleur-falaises",
+    "type": "Chasseur nocturne",
+    "region": "Falaises Sourdes",
+    "description": "Créature maigre et rapide dont le cri résonne dans les hauteurs. Les voyageurs évitent les chemins exposés lorsqu’il rôde.",
+    "image": "/L-Autre-Rivage/assets/images/monstres/hurleur-falaises.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/monstre-hurleur-falaises.html"
+  },
+  {
+    "nom": "Ombre des Ruines",
+    "slug": "ombre-ruines",
+    "type": "Présence spectrale",
+    "region": "Ruines anciennes",
+    "description": "Silhouette indistincte qui apparaît dans les cités abandonnées. Elle semble suivre les intrus sans jamais révéler sa véritable forme.",
+    "image": "/L-Autre-Rivage/assets/images/monstres/ombre-ruines.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/monstre-ombre-ruines.html"
+  },
+  {
+    "nom": "Dévoreur de Joncs",
+    "slug": "devoreur-joncs",
+    "type": "Prédateur des marais",
+    "region": "Marécages du Rivage",
+    "description": "Créature lourde et silencieuse qui se tapit sous les eaux stagnantes et attaque ceux qui s’enfoncent trop loin dans les roseaux.",
+    "image": "/L-Autre-Rivage/assets/images/monstres/devoreur-joncs.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/monstre-devoreur-joncs.html"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "nom": "La Clairière Blanche",
+    "slug": "clairiere-blanche",
+    "type": "Fragment ancien",
+    "zone": "Forêt Haute-Lune",
+    "description": "Un récit évoquant une clairière où la lumière persiste même sous les brumes, comme si le lieu refusait d’entrer complètement dans la nuit.",
+    "image": "/L-Autre-Rivage/assets/images/fragments/clairiere-blanche.jpg",
+    "lien": "/L-Autre-Rivage/lore/fragment-clairiere-blanche.html"
+  },
+  {
+    "nom": "La Lueur sous Pierre",
+    "slug": "lueur-sous-pierre",
+    "type": "Témoignage perdu",
+    "zone": "Ruines enfouies",
+    "description": "Texte incomplet décrivant une lumière aperçue sous des fondations anciennes, là où aucune flamme ne devrait survivre.",
+    "image": "/L-Autre-Rivage/assets/images/fragments/lueur-sous-pierre.jpg",
+    "lien": "/L-Autre-Rivage/lore/fragment-lueur-sous-pierre.html"
+  },
+  {
+    "nom": "La Route Noyée",
+    "slug": "route-noyee",
+    "type": "Chronique de voyage",
+    "zone": "Marais de Verre",
+    "description": "Récit d’un ancien passage commercial disparu sous les eaux lentes, encore suivi par quelques voyageurs qui refusent les routes officielles.",
+    "image": "/L-Autre-Rivage/assets/images/fragments/route-noyee.jpg",
+    "lien": "/L-Autre-Rivage/lore/fragment-route-noyee.html"
+  },
+  {
+    "nom": "La Tour Brisée",
+    "slug": "tour-brisee",
+    "type": "Récit d’archive",
+    "zone": "Val des Ombres",
+    "description": "Fragment mentionnant une tour en ruine dont les pierres semblent conserver la mémoire d’événements trop anciens pour être nommés clairement.",
+    "image": "/L-Autre-Rivage/assets/images/fragments/tour-brisee.jpg",
+    "lien": "/L-Autre-Rivage/lore/fragment-tour-brisee.html"
+  }
+]

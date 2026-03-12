@@ -1,0 +1,56 @@
+[
+  {
+    "nom": "Falaises Sourdes",
+    "slug": "falaises-sourdes",
+    "type": "Région côtière",
+    "zone": "Bord occidental du Rivage",
+    "description": "Falaises abruptes battues par les vents et les marées. Les voix semblent s’y perdre, et les veilleurs évitent d’y rester après la tombée de la nuit.",
+    "image": "/L-Autre-Rivage/assets/images/regions/falaises-sourdes.jpg",
+    "lien": "/L-Autre-Rivage/cartes/region-falaises-sourdes.html"
+  },
+  {
+    "nom": "Forêt Haute-Lune",
+    "slug": "foret-haute-lune",
+    "type": "Forêt ancienne",
+    "zone": "Terres intérieures",
+    "description": "Forêt profonde où la lumière semble changer de nature sous certaines phases de lune. Les chemins y bougent presque autant que les souvenirs.",
+    "image": "/L-Autre-Rivage/assets/images/regions/foret-haute-lune.jpg",
+    "lien": "/L-Autre-Rivage/cartes/region-foret-haute-lune.html"
+  },
+  {
+    "nom": "Îles Noires",
+    "slug": "iles-noires",
+    "type": "Archipel brumeux",
+    "zone": "Mer extérieure",
+    "description": "Ensemble d’îles rocheuses connues pour leurs côtes sombres, leurs récifs et les récits de créatures anciennes tapies entre les brumes marines.",
+    "image": "/L-Autre-Rivage/assets/images/regions/iles-noires.jpg",
+    "lien": "/L-Autre-Rivage/cartes/region-iles-noires.html"
+  },
+  {
+    "nom": "Marais de Verre",
+    "slug": "marais-verre",
+    "type": "Zone marécageuse",
+    "zone": "Basses terres du Rivage",
+    "description": "Marais aux eaux troubles et aux surfaces brillantes, où la lumière se reflète comme sur du verre brisé. Les voyageurs y perdent vite le sens des directions.",
+    "image": "/L-Autre-Rivage/assets/images/regions/marais-verre.jpg",
+    "lien": "/L-Autre-Rivage/cartes/region-marais-verre.html"
+  },
+  {
+    "nom": "Mer des Brumes",
+    "slug": "mer-brumes",
+    "type": "Étendue maritime",
+    "zone": "Frontière mouvante",
+    "description": "Mer capricieuse où les navires disparaissent parfois sans laisser de traces. Les cartes anciennes ne s’accordent jamais tout à fait sur ses limites.",
+    "image": "/L-Autre-Rivage/assets/images/regions/mer-brumes.jpg",
+    "lien": "/L-Autre-Rivage/cartes/region-mer-des-brumes.html"
+  },
+  {
+    "nom": "Val des Ombres",
+    "slug": "val-ombres",
+    "type": "Vallée oubliée",
+    "zone": "Intérieur du Rivage",
+    "description": "Vallée de ruines et de brumes basses où les traces du passé semblent refuser de disparaître. Les récits y parlent d’échos plus vieux que les royaumes.",
+    "image": "/L-Autre-Rivage/assets/images/regions/val-ombres.jpg",
+    "lien": "/L-Autre-Rivage/cartes/region-val-ombres.html"
+  }
+]

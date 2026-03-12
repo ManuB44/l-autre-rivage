@@ -1,0 +1,56 @@
+[
+  {
+    "nom": "Cerf Nocturne",
+    "slug": "cerf-nocturne",
+    "type": "Esprit sylvestre",
+    "region": "Forêt Haute-Lune",
+    "description": "Créature silencieuse aux bois d’ombre. On dit qu’elle apparaît lorsque la lune traverse les brumes du Rivage.",
+    "image": "/L-Autre-Rivage/assets/images/creatures/cerf-nocturne.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/creature-cerf-nocturne.html"
+  },
+  {
+    "nom": "Corbeau de Cendre",
+    "slug": "corbeau-cendre",
+    "type": "Messager du Rivage",
+    "region": "Falaises Sourdes",
+    "description": "Oiseau sombre observé dans les régions où les ruines anciennes dominent encore le paysage du Rivage.",
+    "image": "/L-Autre-Rivage/assets/images/creatures/corbeau-cendre.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/creature-corbeau-cendre.html"
+  },
+  {
+    "nom": "Drakonide",
+    "slug": "drakonide",
+    "type": "Créature draconique",
+    "region": "Îles Noires",
+    "description": "Reptile ancien qui hante les rivages volcaniques. Ses écailles reflètent les brumes marines.",
+    "image": "/L-Autre-Rivage/assets/images/creatures/drakonide.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/creature-drakonide.html"
+  },
+  {
+    "nom": "Limier de Brume",
+    "slug": "limier-brume",
+    "type": "Chasseur spectral",
+    "region": "Mer des Brumes",
+    "description": "Créature furtive que certains explorateurs disent entendre avant même de la voir dans les brumes du Rivage.",
+    "image": "/L-Autre-Rivage/assets/images/creatures/limier-brume.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/creature-limier-brume.html"
+  },
+  {
+    "nom": "Sylphe",
+    "slug": "sylphe",
+    "type": "Esprit aérien",
+    "region": "Falaises et hauteurs du Rivage",
+    "description": "Être insaisissable lié aux vents et aux courants invisibles. Sa présence n’est souvent perçue qu’à travers un souffle ou un murmure.",
+    "image": "/L-Autre-Rivage/assets/images/creatures/sylphe.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/creature-sylphe.html"
+  },
+  {
+    "nom": "Lampeur du Gouffre",
+    "slug": "lampeur-gouffre",
+    "type": "Prédateur des profondeurs",
+    "region": "Cavités oubliées",
+    "description": "Créature étrange dont la lueur attire les imprudents au bord des profondeurs du monde.",
+    "image": "/L-Autre-Rivage/assets/images/creatures/lampeur-gouffre.jpg",
+    "lien": "/L-Autre-Rivage/bestiaire/creature-lampeur-gouffre.html"
+  }
+]

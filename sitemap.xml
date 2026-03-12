@@ -1,188 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
   <url>
     <loc>https://manub44.github.io/L-Autre-Rivage/</loc>
   </url>
 
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/fragments.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/univers/monde-fantasy.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/univers/lore-rivage.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/univers/races-fantasy.html</loc>
   </url>
 
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/boutique.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/fragments.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/fragment-clairiere-blanche.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/fragment-lueur-sous-pierre.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/fragment-route-noyee.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/fragment-tour-brisee.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/histoire-chute-empire.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/lore/histoire-nuit-cendres.html</loc>
   </url>
 
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/bestiaire-fantasy.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creatures-fantasy.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/monstres-fantasy.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creature-cerf-nocturne.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creature-corbeau-cendre.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creature-drakonide.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creature-lampeur-gouffre.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creature-limier-brume.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire/creature-sylphe.html</loc>
   </url>
 
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/cartes-du-rivage.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/cartes-du-rivage.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/region-falaises-sourdes.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/region-foret-haute-lune.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/region-iles-noires.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/region-marais-verre.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/region-mer-des-brumes.html</loc>
+  </url>
+  <url>
+    <loc>https://manub44.github.io/L-Autre-Rivage/cartes/region-val-ombres.html</loc>
   </url>
 
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/chronologie.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/jeu-de-role.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/pages/jdr/jeu-de-role.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/commencer.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/pages/jdr/commencer.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/factions.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/pages/jdr/factions.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/faction-freres-faille.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/a-propos.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/faction-gardiens-sel.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/newsletter.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/faction-marcheurs-jonc.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/contact.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/faction-ordre-du-voile.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/univers-fantasy.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/jdr/faction-veilleurs-haute-lune.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/bestiaire-fantasy.html</loc>
+  <loc>https://manub44.github.io/L-Autre-Rivage/bibliotheque/bibliotheque.html</loc>
   </url>
-
   <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/jeu-de-role-fantasy.html</loc>
+    <loc>https://manub44.github.io/L-Autre-Rivage/communaute/a-propos.html</loc>
   </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creatures-fantasy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/univers-rivage.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creatures-mythologiques.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/monstres-fantasy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/races-fantasy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/cartes-fantasy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/lore-rivage.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/monde-fantasy.html</loc>
-  </url>
-  
-    <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creature-drakonide.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creature-sylphe.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/region-mer-des-brumes.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/region-iles-noires.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/histoire-chute-empire.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/faction-ordre-du-voile.html</loc>
-  </url>
-
-    <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creature-corbeau-cendre.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/region-val-ombres.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/fragment-tour-brisee.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/faction-gardiens-sel.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/histoire-nuit-cendres.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creature-limier-brume.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creature-cerf-nocturne.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/creature-lampeur-gouffre.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/region-marais-verre.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/region-foret-haute-lune.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/region-falaises-sourdes.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/fragment-route-noyee.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/fragment-clairiere-blanche.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/fragment-lueur-sous-pierre.html</loc>
-  </url>
-
-    <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/faction-marcheurs-jonc.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/faction-veilleurs-haute-lune.html</loc>
-  </url>
-
-  <url>
-    <loc>https://manub44.github.io/L-Autre-Rivage/faction-freres-faille.html</loc>
-  </url>
-  
 </urlset>

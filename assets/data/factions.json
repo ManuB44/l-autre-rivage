@@ -1,0 +1,47 @@
+[
+  {
+    "nom": "Frères de la Faille",
+    "slug": "freres-faille",
+    "type": "Explorateurs des fractures",
+    "zone": "Frontières instables du Rivage",
+    "description": "Ils étudient les phénomènes étranges qui apparaissent là où le monde semble se fissurer. Leurs savoirs attirent autant la curiosité que la méfiance.",
+    "image": "/L-Autre-Rivage/assets/images/factions/freres-faille.jpg",
+    "lien": "/L-Autre-Rivage/jdr/faction-freres-faille.html"
+  },
+  {
+    "nom": "Gardiens du Sel",
+    "slug": "gardiens-sel",
+    "type": "Ordre ancien",
+    "zone": "Routes maritimes et cités portuaires",
+    "description": "Chargés de surveiller les routes côtières, ils maintiennent un fragile équilibre entre commerce, tradition et sécurité.",
+    "image": "/L-Autre-Rivage/assets/images/factions/gardiens-sel.jpg",
+    "lien": "/L-Autre-Rivage/jdr/faction-gardiens-sel.html"
+  },
+  {
+    "nom": "Marcheurs du Jonc",
+    "slug": "marcheurs-jonc",
+    "type": "Voyageurs des marais",
+    "zone": "Marécages et rivières oubliées",
+    "description": "Ils connaissent les chemins noyés, les passes secrètes et les terres que les cartes officielles n’osent plus décrire.",
+    "image": "/L-Autre-Rivage/assets/images/factions/marcheurs-jonc.jpg",
+    "lien": "/L-Autre-Rivage/jdr/faction-marcheurs-jonc.html"
+  },
+  {
+    "nom": "Ordre du Voile",
+    "slug": "ordre-voile",
+    "type": "Société secrète",
+    "zone": "Archives cachées et sanctuaires interdits",
+    "description": "Ils protègent certaines connaissances anciennes liées aux mystères du Rivage et interviennent lorsque des vérités jugées dangereuses refont surface.",
+    "image": "/L-Autre-Rivage/assets/images/factions/ordre-voile.jpg",
+    "lien": "/L-Autre-Rivage/jdr/faction-ordre-du-voile.html"
+  },
+  {
+    "nom": "Veilleurs de Haute-Lune",
+    "slug": "veilleurs-haute-lune",
+    "type": "Gardiens sylvestres",
+    "zone": "Forêts anciennes et hautes terres",
+    "description": "Ils surveillent les régions où les frontières du monde deviennent incertaines et où les présences anciennes se réveillent sous la lumière lunaire.",
+    "image": "/L-Autre-Rivage/assets/images/factions/veilleurs-haute-lune.jpg",
+    "lien": "/L-Autre-Rivage/jdr/faction-veilleurs-haute-lune.html"
+  }
+]

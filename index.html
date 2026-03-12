@@ -1,201 +1,187 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>L’Autre Rivage — Univers fantasy, science-fiction, JDR et PDF</title>
-  <meta name="description" content="Un portail consacré aux univers de fantasy et de science-fiction, aux récits fragmentés, aux créations originales et au jeu de rôle narratif.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="https://manub44.github.io/L-Autre-Rivage/">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L’Autre Rivage — Portail officiel du monde, des livres et du JDR</title>
+  <meta name="description" content="Entre dans L’Autre Rivage : univers fantasy sombre, bestiaire, fragments narratifs, cartes, livres PDF et jeu de rôle." />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-
-<header class="site-header">
-  <div class="header-inner">
-    <div class="site-brand">L’AUTRE<br>RIVAGE</div>
-
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="index.html">Accueil</a>
-      <a href="univers-fantasy.html">Univers</a>
-      <a href="fragments.html">Fragments</a>
-      <a href="boutique.html">Boutique PDF</a>
-      <a href="bestiaire-fantasy.html">Bestiaire</a>
-      <a href="cartes-fantasy.html">Cartes</a>
-      <a href="chronologie.html">Chronologie</a>
-      <a href="jeu-de-role-fantasy.html">JDR</a>
-      <a href="creatures-fantasy.html">Créatures fantasy</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <section class="hero">
-    <div class="hero-left">
-      <div class="kicker">MONDES IMAGINAIRES • CRÉATION • COMMUNAUTÉ</div>
-
-      <h1>Bienvenue sur<br>L’Autre Rivage</h1>
-
-      <p>
-        Un portail consacré aux univers de fantasy et de science-fiction,
-        aux récits fragmentés, aux créations originales et au jeu de rôle narratif.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn btn-gold" href="boutique.html">Découvrir les PDF</a>
-        <a class="btn btn-outline" href="univers-fantasy.html">Explorer l’univers</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="logo" href="index.html">L’Autre Rivage</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Ouvrir le menu">Menu</button>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="univers/monde-fantasy.html">Univers</a>
+        <a href="cartes/cartes-du-rivage.html">Cartes</a>
+        <a href="bestiaire/bestiaire-fantasy.html">Bestiaire</a>
+        <a href="jdr/jeu-de-role.html">JDR</a>
+        <a href="lore/fragments.html">Fragments</a>
+        <a href="bibliotheque/bibliotheque.html">Bibliothèque</a>
+        <a href="communaute/a-propos.html">Communauté</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Portail officiel</p>
+          <h1>Explore le monde, lis les livres, entre dans le jeu.</h1>
+          <p class="hero-lead">L’Autre Rivage rassemble l’univers, les créatures, les cartes, les fragments narratifs et les PDF du JDR dans une structure plus claire. Fini le beau brouillard qui te cache la porte : ici, chaque section mène quelque part.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="bibliotheque/bibliotheque.html">Lire les livres gratuits</a>
+            <a class="btn btn-secondary" href="jdr/jeu-de-role.html">Commencer le JDR</a>
+          </div>
+          <form class="hero-search" data-site-search data-bibliotheque="bibliotheque/bibliotheque.html" data-univers="univers/monde-fantasy.html" data-cartes="cartes/cartes-du-rivage.html" data-jdr="jdr/jeu-de-role.html" data-fragments="lore/fragments.html">
+            <input type="text" placeholder="Rechercher un livre, une créature, une région, une faction..." />
+            <button class="btn btn-primary" type="submit">Chercher</button>
+          </form>
+          <p class="search-note">Exemples : bestiaire, initiation, faction, marais, fragment, règles.</p>
+        </div>
+        <aside class="hero-panel">
+          <div class="panel-card">
+            <h2>Commencer sans te perdre</h2>
+            <ul class="panel-list">
+              <li><strong>Univers</strong> pour comprendre le monde, ses races et son lore.</li>
+              <li><strong>Bibliothèque</strong> pour lire les PDF gratuits immédiatement.</li>
+              <li><strong>Bestiaire</strong> pour découvrir créatures, ombres et monstres.</li>
+              <li><strong>JDR</strong> pour entrer dans les factions, le jeu et les scénarios.</li>
+            </ul>
+          </div>
+        </aside>
       </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Entrées principales</p>
+          <h2>Choisis ta porte d’entrée</h2>
+          <p>Le site doit être compris en trois secondes. Tu veux lire, explorer, jouer ou fouiller le lore : tout part d’ici.</p>
+        </div>
+        <div class="card-grid card-grid-3">
+          <article class="portal-card">
+            <img src="assets/images/og-cover.jpg" alt="Univers de L’Autre Rivage" />
+            <div class="portal-card-content">
+              <span class="card-tag">Univers</span>
+              <h3>Le monde de L’Autre Rivage</h3>
+              <p>Comprendre les terres, les fractures, les peuples et la mémoire instable du Rivage.</p>
+              <a class="text-link" href="univers/monde-fantasy.html">Explorer l’univers</a>
+            </div>
+          </article>
+          <article class="portal-card">
+            <img src="assets/images/og-bestiaire.jpg" alt="Bestiaire fantasy" />
+            <div class="portal-card-content">
+              <span class="card-tag">Bestiaire</span>
+              <h3>Créatures, ombres et monstres</h3>
+              <p>Parcours les présences qui hantent les forêts, les brumes, les ruines et les routes perdues.</p>
+              <a class="text-link" href="bestiaire/bestiaire-fantasy.html">Voir le bestiaire</a>
+            </div>
+          </article>
+          <article class="portal-card">
+            <img src="assets/images/og-cartes.jpg" alt="Cartes du Rivage" />
+            <div class="portal-card-content">
+              <span class="card-tag">Cartes</span>
+              <h3>Régions du Rivage</h3>
+              <p>Falaises, marais, îles, mer des brumes et forêts : les cartes donnent une lecture claire du monde.</p>
+              <a class="text-link" href="cartes/cartes-du-rivage.html">Ouvrir les cartes</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-surface">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Bibliothèque</p>
+          <h2>Les PDF à lire tout de suite</h2>
+          <p>Les livres gratuits sont désormais visibles sans fouiller comme un gobelin perdu dans une cave mal rangée.</p>
+        </div>
+        <div class="card-grid card-grid-3">
+          <article class="portal-card">
+            <img src="assets/images/og-cover.jpg" alt="Livre d’initiation" />
+            <div class="portal-card-content">
+              <span class="card-tag">PDF gratuit</span>
+              <h3>Livre d’initiation</h3>
+              <p>La porte d’entrée la plus simple pour comprendre le ton, les bases et la promesse du jeu.</p>
+              <div class="book-actions">
+                <a class="btn btn-primary" href="assets/pdf/gratuit/L_AUTRE_RIVAGE_Livre_Initiation.pdf" target="_blank">Lire</a>
+                <a class="btn btn-secondary" href="assets/pdf/gratuit/L_AUTRE_RIVAGE_Livre_Initiation.pdf" download>Télécharger</a>
+              </div>
+            </div>
+          </article>
+          <article class="portal-card">
+            <img src="assets/images/og-bestiaire.jpg" alt="Bestiaire des Ombres" />
+            <div class="portal-card-content">
+              <span class="card-tag">Bestiaire</span>
+              <h3>Bestiaire des Ombres</h3>
+              <p>Les créatures obscures, les menaces silencieuses et tout ce qui préfère la brume à la lumière.</p>
+              <div class="book-actions">
+                <a class="btn btn-primary" href="assets/pdf/gratuit/Bestiaire_Creatures_Ombres.pdf" target="_blank">Lire</a>
+                <a class="btn btn-secondary" href="assets/pdf/gratuit/Bestiaire_Creatures_Ombres.pdf" download>Télécharger</a>
+              </div>
+            </div>
+          </article>
+          <article class="portal-card">
+            <img src="assets/images/og-fragments.jpg" alt="Bestiaire des Royaumes" />
+            <div class="portal-card-content">
+              <span class="card-tag">Bestiaire</span>
+              <h3>Bestiaire des Royaumes</h3>
+              <p>Les créatures des terres, des peuples et des régions vivantes du Rivage.</p>
+              <div class="book-actions">
+                <a class="btn btn-primary" href="assets/pdf/gratuit/L_AUTRE_RIVAGE_BESTIAIRE_DES_ROYAUMES.pdf" target="_blank">Lire</a>
+                <a class="btn btn-secondary" href="assets/pdf/gratuit/L_AUTRE_RIVAGE_BESTIAIRE_DES_ROYAUMES.pdf" download>Télécharger</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="quick-grid quick-grid-4">
+          <article class="feature-card">
+            <h3>Univers</h3>
+            <p>Monde, lore, races fantasy et grandes lignes du Rivage.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Fragments</h3>
+            <p>Textes courts, chroniques et sensations d’un monde ancien.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Bestiaire</h3>
+            <p>Créatures, mythes, monstres et présences inquiétantes.</p>
+          </article>
+          <article class="feature-card">
+            <h3>JDR</h3>
+            <p>Commencer une partie, comprendre les factions et jouer dans le monde.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-title">L’Autre Rivage</p>
+        <p class="footer-text">Univers fantasy sombre, lore, bestiaire, cartes, livres PDF et jeu de rôle.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Liens du pied de page">
+        <a href="index.html">Accueil</a>
+        <a href="univers/monde-fantasy.html">Univers</a>
+        <a href="cartes/cartes-du-rivage.html">Cartes</a>
+        <a href="bestiaire/bestiaire-fantasy.html">Bestiaire</a>
+        <a href="jdr/jeu-de-role.html">JDR</a>
+        <a href="lore/fragments.html">Fragments</a>
+        <a href="bibliotheque/bibliotheque.html">Bibliothèque</a>
+      </nav>
     </div>
-
-    <aside class="glass-card hero-card">
-      <h2>Ce que tu<br>trouveras ici</h2>
-      <ul>
-        <li>Fragments narratifs gratuits</li>
-        <li>Bestiaire et lore du Rivage</li>
-        <li>Cartes et chronologie</li>
-        <li>PDF premium à télécharger</li>
-        <li>Jeu de rôle dédié à l’univers</li>
-      </ul>
-    </aside>
-  </section>
-
-  <section>
-    <div class="section-kicker">EXPLORER</div>
-    <h2 class="section-title">Trois portes d’entrée</h2>
-    <p class="section-desc">
-      Entre lecture, découverte visuelle et incarnation du monde, choisis ton passage.
-    </p>
-
-    <div class="card-grid">
-      <article class="glass-card feature-card">
-        <h3>Fragments</h3>
-        <p>Des textes, traces, archives et éclats du Rivage pour entrer dans l’univers par la lecture.</p>
-        <a class="card-link" href="fragments.html">Lire les fragments</a>
-      </article>
-
-      <article class="glass-card feature-card">
-        <h3>Boutique PDF</h3>
-        <p>Télécharge des extraits gratuits, des documents de lore et des contenus premium.</p>
-        <a class="card-link" href="boutique.html">Voir les PDF</a>
-      </article>
-
-      <article class="glass-card feature-card">
-        <h3>Jeu de rôle</h3>
-        <p>Découvre un système pensé pour explorer les territoires instables du Rivage.</p>
-        <a class="card-link" href="jeu-de-role-fantasy.html">Entrer dans le JDR</a>
-      </article>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-kicker">UNIVERS</div>
-    <h2 class="section-title">Les territoires du site</h2>
-
-    <div class="card-grid">
-      <article class="glass-card feature-card">
-        <h3>Bestiaire</h3>
-        <p>Créatures, formes anciennes, présences hostiles et entités majeures du Rivage.</p>
-        <a class="card-link" href="bestiaire-fantasy.html">Explorer le bestiaire</a>
-      </article>
-
-      <article class="glass-card feature-card">
-        <h3>Cartes</h3>
-        <p>Zones connues, passages instables, territoires clos et lieux rongés par l’oubli.</p>
-        <a class="card-link" href="cartes-fantasy.html">Voir les cartes</a>
-      </article>
-
-      <article class="glass-card feature-card">
-        <h3>Chronologie</h3>
-        <p>Ruptures, fractures, époques et transmissions qui structurent l’histoire du monde.</p>
-        <a class="card-link" href="chronologie.html">Suivre la chronologie</a>
-      </article>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-kicker">PDF GRATUITS ET PREMIUM</div>
-    <h2 class="section-title">Commencer par un extrait, aller vers le contenu complet</h2>
-
-    <div class="offer-grid">
-      <article class="glass-card offer-card">
-        <div class="offer-badge free">GRATUIT</div>
-        <h3>Fragment d’introduction</h3>
-        <p>Un premier texte pour découvrir l’ambiance et les lignes du Rivage.</p>
-        <div class="offer-meta">PDF • 8 pages</div>
-        <a class="btn btn-outline" href="assets/pdf/fragment-introduction.pdf">Télécharger</a>
-      </article>
-
-      <article class="glass-card offer-card">
-        <div class="offer-badge premium">PREMIUM</div>
-        <h3>Bestiaire du Rivage</h3>
-        <p>Créatures, niveaux de menace, fonctions narratives et rôles dans les affrontements.</p>
-        <div class="offer-meta">PDF • 32 pages</div>
-        <a class="btn btn-outline" href="boutique.html">Voir l’offre</a>
-      </article>
-
-      <article class="glass-card offer-card">
-        <div class="offer-badge premium">PREMIUM</div>
-        <h3>Livret JDR</h3>
-        <p>Règles, base de jeu, ambiance et premières pistes pour lancer des sessions.</p>
-        <div class="offer-meta">PDF • 28 pages</div>
-        <a class="btn btn-outline" href="boutique.html">Voir l’offre</a>
-      </article>
-    </div>
-  </section>
-
-  <section class="glass-card community-card">
-    <div class="community-text">
-      <div class="section-kicker">COMMUNAUTÉ</div>
-      <h2 class="section-title">Le Nexus des Mondes</h2>
-      <p class="section-desc">
-        Rejoins l’espace communautaire pour suivre les projets,
-        parler des univers, découvrir les nouveautés et échanger
-        autour du jeu de rôle.
-      </p>
-    </div>
-
-    <div class="community-actions">
-      <a class="btn btn-gold" href="newsletter.html">Recevoir les transmissions</a>
-      <a class="btn btn-outline" href="https://discord.com" target="_blank" rel="noopener noreferrer">Rejoindre le Discord</a>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="footer-inner footer-grid">
-    <div class="footer-col">
-      <h3>L’Autre Rivage</h3>
-      <p>Univers narratifs, PDF, bestiaire, cartographie, chronologie et jeu de rôle.</p>
-    </div>
-
-    <div class="footer-col">
-      <h3>Navigation</h3>
-      <ul class="footer-links">
-        <li><a href="fragments.html">Fragments</a></li>
-        <li><a href="boutique.html">Boutique PDF</a></li>
-        <li><a href="bestiaire-fantasy.html">Bestiaire</a></li>
-        <li><a href="jeu-de-role-fantasy.html">JDR</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <h3>Suivre le projet</h3>
-      <ul class="footer-links">
-        <li><a href="newsletter.html">Newsletter</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    © 2026 L’Autre Rivage
-  </div>
-</footer>
-
+  </footer>
+  <script src="assets/js/site.js" defer></script>
 </body>
 </html>
