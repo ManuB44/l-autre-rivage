@@ -2,15 +2,12 @@
   --bg: #090505;
   --bg-soft: #140d0c;
   --panel: #211614;
-  --panel-2: #281a17;
   --gold: #c79645;
   --gold-soft: #f1d7a4;
   --text: #f7e8cd;
   --text-soft: #dec7a2;
   --line: rgba(199, 150, 69, 0.22);
   --line-strong: rgba(199, 150, 69, 0.34);
-  --red: #8f1f1f;
-  --red-dark: #741919;
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
   --radius: 22px;
   --max: 1360px;
@@ -47,6 +44,55 @@ a {
 .container {
   width: min(calc(100% - 36px), var(--max));
   margin: 0 auto;
+}
+
+/* MENU HAUT */
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5000;
+  background: rgba(10, 6, 5, 0.86);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(199, 150, 69, 0.18);
+}
+
+.nav-container {
+  width: min(calc(100% - 40px), 1400px);
+  margin: auto;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo a {
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--gold-soft);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #e7d2aa;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #ffd38a;
 }
 
 /* MENU LATÉRAL */
@@ -123,10 +169,12 @@ a {
   min-height: 560px;
   display: flex;
   align-items: center;
+  margin-top: 72px;
   background:
     linear-gradient(to right, rgba(10,6,5,0.78) 0%, rgba(10,6,5,0.58) 40%, rgba(10,6,5,0.72) 100%),
     linear-gradient(to bottom, rgba(10,6,5,0.16), rgba(10,6,5,0.80)),
     url("../images/hero-rivage.jpg") center center / cover no-repeat;
+  border-bottom: 1px solid rgba(199,150,69,0.16);
 }
 
 .hero-overlay {
@@ -163,7 +211,6 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   text-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
-  background: none;
 }
 
 .hero-text-full {
@@ -173,7 +220,6 @@ a {
   color: var(--text-soft);
   font-size: 1.08rem;
   text-align: left;
-  background: none;
 }
 
 .hero-buttons {
@@ -252,7 +298,6 @@ a {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  display: block;
 }
 
 .porte-content {
@@ -341,7 +386,6 @@ a {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  display: block;
 }
 
 .library-card-body {
@@ -398,10 +442,19 @@ a {
   }
 }
 
+@media (max-width: 980px) {
+  .main-nav {
+    gap: 16px;
+  }
+
+  .main-nav a {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 860px) {
   .hero-rivage {
     min-height: 460px;
-    background-position: center center;
   }
 
   .hero-title-full {
@@ -415,6 +468,25 @@ a {
   .portes-grid,
   .library-grid {
     grid-template-columns: 1fr;
+  }
+
+  .main-header {
+    position: static;
+  }
+
+  .hero-rivage {
+    margin-top: 0;
+  }
+
+  .nav-container {
+    height: auto;
+    padding: 14px 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-nav {
+    gap: 12px 18px;
   }
 
   .side-rail {
@@ -452,7 +524,8 @@ a {
 
 @media (max-width: 560px) {
   .container,
-  .hero-overlay {
+  .hero-overlay,
+  .nav-container {
     width: min(calc(100% - 20px), var(--max));
   }
 
@@ -463,5 +536,10 @@ a {
 
   .btn {
     width: 100%;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
