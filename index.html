@@ -14,19 +14,28 @@
 <body>
 
   <!-- MENU HAUT -->
-  <header class="main-header">
-    <div class="nav-container">
-      <div class="logo">
-        <a href="index.html">L’Autre Rivage</a>
-      </div>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="logo" href="index.html">L’Autre Rivage</a>
 
-      <nav class="main-nav">
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-label="Ouvrir le menu"
+      >
+        Menu
+      </button>
+
+      <nav class="site-nav" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
         <a href="univers/monde-fantasy.html">Univers</a>
         <a href="bestiaire/bestiaire-fantasy.html">Bestiaire</a>
         <a href="cartes/cartes-du-rivage.html">Cartes</a>
         <a href="bibliotheque/bibliotheque.html">Bibliothèque</a>
         <a href="jdr/jeu-de-role.html">JDR</a>
+        <a href="lore/fragments.html">Fragments</a>
+        <a href="communaute/a-propos.html">À propos</a>
       </nav>
     </div>
   </header>
@@ -188,5 +197,6 @@
 
   </main>
 
+  <script src="assets/js/site.js"></script>
 </body>
 </html>
