@@ -237,24 +237,20 @@ select {
 
 /* HERO */
 
-.page-hero {
+.hero {
   position: relative;
-  overflow: hidden;
-  margin-bottom: var(--section-gap);
-  padding: 56px 0 24px;
-}
-
-.page-hero-home {
-  position: relative;
-  height: 520px;
+  height: 100vh;
+  background: url('assets/images/hero-rivage.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
-  margin-top: calc(var(--header-height) * -1);
-  padding-top: var(--header-height);
-  background:
-    linear-gradient(to right, rgba(10, 6, 5, 0.85), rgba(10, 6, 5, 0.55) 40%, rgba(10, 6, 5, 0.85)),
-    url("../images/carte-rivage.jpg") center / cover no-repeat;
-  border-bottom: 1px solid var(--line);
+  padding: 0 8%;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
 }
 
 .page-hero-home .container {
