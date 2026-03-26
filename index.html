@@ -30,24 +30,6 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 
   <style>
-    .hero-video-wrap {
-      position: relative;
-      width: 100%;
-      border-radius: 18px;
-      overflow: hidden;
-      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
-      background: #05070d;
-    }
-
-    .hero-video {
-      display: block;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 16 / 9;
-      object-fit: cover;
-      background: #000;
-    }
-
     .video-section {
       padding: 80px 0;
     }
@@ -59,6 +41,7 @@
       overflow: hidden;
       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
       background: #05070d;
+      border: 1px solid rgba(255, 255, 255, 0.06);
     }
 
     .video-box video {
@@ -75,6 +58,17 @@
       margin: 20px auto 0;
       text-align: center;
       opacity: 0.9;
+      color: var(--text-soft);
+    }
+
+    @media (max-width: 720px) {
+      .video-section {
+        padding: 60px 0;
+      }
+
+      .video-caption {
+        font-size: 0.98rem;
+      }
     }
   </style>
 </head>
@@ -140,18 +134,19 @@
             </div>
           </div>
 
-          <div class="hero-visual">
-            <div class="hero-frame hero-video-wrap">
-              <video
-                class="hero-video"
-                controls
-                preload="metadata"
-                poster="assets/images/jdr-hero.jpg"
-              >
-                <source src="assets/videos/rivage-video.mp4" type="video/mp4" />
-                Votre navigateur ne prend pas en charge la lecture vidéo.
-              </video>
-            </div>
+          <div class="hero-frame">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="assets/images/hero-rivage.jpg"
+              aria-label="Vidéo d’ambiance de L’Autre Rivage"
+            >
+              <source src="assets/videos/rivage-video.mp4" type="video/mp4" />
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
           </div>
         </div>
       </section>
@@ -179,12 +174,12 @@
 
           <div class="feature-showcase">
             <div class="feature-tabs" role="tablist" aria-label="Contenus du Rivage">
-              <button class="feature-tab active" data-feature="0" type="button">Lore</button>
-              <button class="feature-tab" data-feature="1" type="button">Bestiaire</button>
-              <button class="feature-tab" data-feature="2" type="button">JDR</button>
-              <button class="feature-tab" data-feature="3" type="button">Loot &amp; Craft</button>
-              <button class="feature-tab" data-feature="4" type="button">Cartes</button>
-              <button class="feature-tab" data-feature="5" type="button">Archives PDF</button>
+              <button class="feature-tab active" data-feature="0" type="button" role="tab" aria-selected="true">Lore</button>
+              <button class="feature-tab" data-feature="1" type="button" role="tab" aria-selected="false">Bestiaire</button>
+              <button class="feature-tab" data-feature="2" type="button" role="tab" aria-selected="false">JDR</button>
+              <button class="feature-tab" data-feature="3" type="button" role="tab" aria-selected="false">Loot &amp; Craft</button>
+              <button class="feature-tab" data-feature="4" type="button" role="tab" aria-selected="false">Cartes</button>
+              <button class="feature-tab" data-feature="5" type="button" role="tab" aria-selected="false">Archives PDF</button>
             </div>
 
             <div class="feature-stage">
@@ -435,10 +430,16 @@
       tab.addEventListener("click", () => {
         const target = tab.dataset.feature;
 
-        tabs.forEach((t) => t.classList.remove("active"));
+        tabs.forEach((t) => {
+          t.classList.remove("active");
+          t.setAttribute("aria-selected", "false");
+        });
+
         panels.forEach((p) => p.classList.remove("active"));
 
         tab.classList.add("active");
+        tab.setAttribute("aria-selected", "true");
+
         document
           .querySelector(`.feature-panel[data-panel="${target}"]`)
           ?.classList.add("active");
