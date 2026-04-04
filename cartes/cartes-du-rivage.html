@@ -12,18 +12,36 @@ content="Explore la carte officielle de L’Autre Rivage : Bastion des Sentinell
 
 <link rel="stylesheet" href="../assets/css/style.css">
 
-</head>
+<header class="site-header">
+  <div class="container nav-shell">
 
-<script>
-const links = document.querySelectorAll(".site-nav a");
-const current = window.location.pathname;
+    <a href="/L-Autre-Rivage/index.html" class="brand">
+      <span class="brand-mark">✦</span>
+      <span class="brand-text">L’Autre Rivage</span>
+    </a>
 
-links.forEach(link => {
-  if (current.includes(link.getAttribute("href"))) {
-    link.classList.add("active");
-  }
-});
-</script>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      Menu
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+      <a href="/L-Autre-Rivage/index.html">Accueil</a>
+      <a href="/L-Autre-Rivage/univers/monde-fantasy.html">Univers</a>
+      <a href="/L-Autre-Rivage/cartes/cartes-du-rivage.html">Cartes</a>
+      <a href="/L-Autre-Rivage/bestiaire/bestiaire-fantasy.html">Bestiaire</a>
+      <a href="/L-Autre-Rivage/jdr/jeu-de-role.html">JDR</a>
+      <a href="/L-Autre-Rivage/lore/fragments.html">Lore</a>
+      <a href="/L-Autre-Rivage/bibliotheque/bibliotheque.html">Bibliothèque</a>
+      <a href="/L-Autre-Rivage/communaute/a-propos.html">Communauté</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="https://discord.gg/TON-LIEN-DISCORD" target="_blank" rel="noopener" class="nav-link">Discord</a>
+      <a href="/L-Autre-Rivage/bibliotheque/bibliotheque.html" class="nav-link nav-link-strong">Archives PDF</a>
+    </div>
+
+  </div>
+</header>
 
 <body>
 
